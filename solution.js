@@ -14,7 +14,7 @@ addBtn.addEventListener("click", () => {
             newTaskItem.remove();
         })
         newTaskItem.appendChild(deleteBtn);
-        deleteBtn.style.marginLeft = "20px"
+        // deleteBtn.style.marginLeft = "20px"
         input.value = ""
     } else {
         alert("please enter a task")
